@@ -1,14 +1,15 @@
 import React from "react";
-import Home from "./Pag/home";
-import Login from "./Pag/login";
-import Cadastro from "./Pag/cadastro";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./Pag/Home";
+import Login from "./Pag/Login";
+import Cadastro from "./Pag/Cadastro";
 
 function App() {
   return (
-    <Router>
+    <Router>  
       <nav>
-        <Link to="/">Home</Link>  
-        <Link to="/login">Login</Link>  
+        <Link to="/">Home</Link>
+        <Link to="/login">Login</Link>
         <Link to="/cadastro">Cadastro</Link>
       </nav>
       <Routes>
