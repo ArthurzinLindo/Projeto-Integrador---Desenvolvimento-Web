@@ -1,3 +1,5 @@
+Aqui está o conteúdo completo do README formatado para que você possa copiá-lo e colá-lo diretamente no seu projeto:
+
 # TCC 2024 - Software de Agendamento para Clínica Veterinária 🐾
 
 Este projeto é desenvolvido como parte do Trabalho de Conclusão de Curso (TCC) para o curso de **Análise e Desenvolvimento de Sistemas**. O objetivo é criar um **software de agendamento para clínicas veterinárias**, utilizando tecnologias modernas e boas práticas de desenvolvimento web.
@@ -31,6 +33,7 @@ tcc-2024-projeto-web/
 ├── public/
 │   ├── index.html           # Arquivo HTML principal
 ├── package.json             # Gerenciador de dependências
+```
 
 ---
 
@@ -80,24 +83,26 @@ npm ou yarn
 Passos
 
 1. Clone o repositório:
-
+```
 git clone https://github.com/seu-usuario/tcc-2024-projeto-web.git
 cd tcc-2024-projeto-web
-
+```
 
 2. Instale as dependências:
-
+```
 npm install
 
-
+```
 3. Inicie o servidor de desenvolvimento:
-
+```
 npm start
+```
 
+4. Acesse o aplicativo no navegador:
+```
+   http://localhost:3000.
 
-4. Acesse o aplicativo no navegador: http://localhost:3000.
-
-
+```
 
 
 ---
@@ -107,20 +112,20 @@ npm start
 Se você deseja colaborar com o projeto, siga os passos abaixo:
 
 1. Crie uma branch para sua feature ou correção:
-
+```
 git checkout -b nome-da-branch
 
-
+```
 2. Faça suas alterações e commits:
-
+```
 git add .
 git commit -m "Descrição das alterações"
 
-
+```
 3. Envie sua branch para o repositório remoto:
-
+```
 git push origin nome-da-branch
-
+```
 
 4. Abra um Pull Request (PR) para revisão.
 
@@ -156,7 +161,3 @@ Implementar login e controle de acesso baseado em níveis de permissão.
 Garantir a qualidade e estabilidade do código.
 
 
-
-
-
----
