@@ -37,7 +37,7 @@ tcc-2024-projeto-web/
 
 ---
 
-🛠 Tecnologias Utilizadas
+🛠 **Tecnologias Utilizadas**
 
 As seguintes ferramentas e bibliotecas foram empregadas no desenvolvimento:
 
@@ -55,7 +55,7 @@ Eslint: Ferramenta para garantir qualidade do código.
 
 ---
 
-⚙️ Dependências
+⚙️ **Dependências**
 
 As principais dependências do projeto são:
 
@@ -69,7 +69,7 @@ bootstrap
 
 ---
 
-🚀 Como Rodar o Projeto
+🚀 **Como Rodar o Projeto**
 
 Pré-requisitos
 
@@ -107,7 +107,7 @@ npm start
 
 ---
 
-🌟 Como Contribuir
+🌟 **Como Contribuir**
 
 Se você deseja colaborar com o projeto, siga os passos abaixo:
 
@@ -134,7 +134,7 @@ git push origin nome-da-branch
 
 ---
 
-🔮 Próximos Passos
+🔮 **Próximos Passos**
 
 Para aprimorar o projeto, as seguintes funcionalidades serão implementadas:
 
