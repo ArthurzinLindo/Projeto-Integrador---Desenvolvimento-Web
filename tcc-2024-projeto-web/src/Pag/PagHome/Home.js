@@ -3,10 +3,15 @@ import "./Home.css";
 
 function Home() {
   return (
+
     <div>
-      <h1>Bem-vindo à Página Home</h1>
-      <h4>Teste de estrutura</h4>
+      <div>
+        <header className= "Cabeçalho"></header>
+        <div className="btnlogin"><button type="button" class="btn btn-outline-secondary">Login</button></div>
+        <div className="btncadastro"></div>
+      </div>
     </div>
+
   );
 }
 
