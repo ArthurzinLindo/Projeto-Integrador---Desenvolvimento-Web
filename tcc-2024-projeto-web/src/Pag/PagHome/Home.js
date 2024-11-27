@@ -5,13 +5,18 @@ function Home() {
   return (
 
     <div>
-      <div>
-        <header className= "Cabeçalho"></header>
-        <div className="btnlogin"><button type="button" class="btn btn-outline-secondary">Login</button></div>
-        <div className="btncadastro"></div>
-        <h1 id="logado"></h1> 
-        <button onclick="sair()">Sair</button>
-      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <span class="fw-bold text-primary">MUNDO PET</span>
+      <i class="bi bi-house ms-2"></i>
+    </a>
+    <div class="d-flex">
+      <button class="btn btn-outline-primary me-2">Entrar</button>
+      <button class="btn btn-primary">Cadastrar</button>
+    </div>
+  </div>
+</nav>
     </div>
 
   );
