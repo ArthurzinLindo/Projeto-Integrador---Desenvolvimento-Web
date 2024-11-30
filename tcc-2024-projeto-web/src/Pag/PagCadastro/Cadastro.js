@@ -4,7 +4,7 @@ import "./Cadastro.css";
 function Cadastro() {
     return (
         
-        <h1>Cadastro de Usuário</h1>
+        <h1>C oii felip</h1>
     );
 }
 
