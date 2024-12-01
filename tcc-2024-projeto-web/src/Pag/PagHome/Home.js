@@ -1,23 +1,30 @@
 import React from "react";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
 
-    <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+    <header class="navbar navbar-expand-lg bg-primary text-white py-2">
   <div class="container">
-    <a class="navbar-brand d-flex align-items-center" href="#">
-      <span class="fw-bold text-primary">MUNDO PET</span>
-      <i class="bi bi-house ms-2"></i>
+    <a href="#" class="navbar-brand text-white d-flex align-items-center">
+
+      <span>MUNDO PET</span>
     </a>
-    <div class="d-flex">
-      <button class="btn btn-outline-primary me-2">Entrar</button>
-      <button class="btn btn-primary">Cadastrar</button>
+    <div class="ms-auto">
+       <Link to="/Login">
+       <button type="button" class="btn btn-outline-primary me-2">Entrar</button>
+       </Link>
+        <Link to="/Cadastro">
+      <button type="button" class="btn btn-outline-primary">Cadastrar </button>
+      </Link>
     </div>
   </div>
-</nav>
-    </div>
+
+  
+</header>
+
 
   );
 }
