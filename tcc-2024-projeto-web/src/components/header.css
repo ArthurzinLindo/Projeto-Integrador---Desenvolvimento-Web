@@ -1,0 +1,15 @@
+header {
+  background: linear-gradient(to right, #007bff, #dceeff); /* Gradiente azul */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+header .navbar-brand span {
+  font-size: 1.5rem; /* Tamanho da fonte do nome */
+  font-weight: bold;
+}
+
+header .btn {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}

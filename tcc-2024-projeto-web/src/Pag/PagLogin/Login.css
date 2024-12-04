@@ -1,0 +1,84 @@
+/* Ajustando a estrutura do cabeçalho */
+.navbar1 {
+  background: linear-gradient(to right, #007bff, #dceeff); /* Gradiente azul */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+  display: flex;
+  justify-content: flex-start; /* Alinha o logo à esquerda */
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar1 .navbar-brand1 {
+  font-size: 1.5rem; /* Tamanho da fonte do nome */
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.navbar1 .navbar-brand1 span {
+  color: #fff; /* Cor da marca */
+}
+
+.Bodylogin {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #007bff, #dceeff);
+  height: 100vh; /* Ocupa toda a altura da janela */
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+.login-container {
+  background-color: #e6f7ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.login-box h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  color: #333;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.form-group input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn-block {
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-block:hover {
+  background-color: #0056b3;
+}
+
+.text-center a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.text-center a:hover {
+  text-decoration: underline;
+}
